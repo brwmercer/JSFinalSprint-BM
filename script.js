@@ -3,8 +3,9 @@ fetch('data.json')
   .then(data => {
 
     data.forEach(person => { 
-        console.log(getfullname(person));
-        console.log(getDetails(person));
+        console.log(displayFullName(person));
+        console.log(displayAge(person));
+        console.log(displayOccupation(person));
   });
   })
 
@@ -12,10 +13,14 @@ fetch('data.json')
 
   });
 
-  function getfullname(person) {
+  function displayFullName(person) {
     return `${person.fName} ${person.lName}`;
   }
 
-  function getDetails(person) {
-    return  `${person.fName} is a ${person.age} year old ${person.occupation} in ${person.city}`;
+  function displayAge(person) {
+    return  `They are ${person.age} years old`;
+  }
+
+  function displayOccupation(person) {
+    return `They are a ${person.occupation} in ${person.city}`;
   }
