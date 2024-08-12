@@ -37,5 +37,13 @@
         "age": "45",
         "occupation": "Chemist",
         "city": "Albequerque"
+    },
+
+    {
+        "fName": "TJ",
+        "lName": "Watt",
+        "age": "29",
+        "occupation": "Football Player",
+        "city": "Pittsburgh"
     }
 ]
