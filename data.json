@@ -1,0 +1,41 @@
+[
+    {
+        "fName": "Connor",
+        "lName": "Mcdavid",
+        "age": "27",
+        "occupation": "Hockey Player",
+        "city": "Edmonton"
+    },
+
+    {
+        "fName": "Jax",
+        "lName": "Teller",
+        "age": "32",
+        "occupation": "Biker",
+        "city": "Charming"
+    },
+
+    {
+        "fName": "Bruce",
+        "lName": "Wayne",
+        "age": "35",
+        "occupation": "Superhero",
+        "city": "Gotham"
+    },
+
+    {
+        "fName": "Shohei",
+        "lName": "Ohtani",
+        "age": "27",
+        "occupation": "Baseball Player",
+        "city": "Los Angeles"
+    },
+
+    {
+        "fName": "Walter",
+        "lName": "White",
+        "age": "45",
+        "occupation": "Chemist",
+        "city": "Albequerque"
+    }
+]
